@@ -1,14 +1,30 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "videos": [
+    {
+      "thumbnail": "https://via.placeholder.com/150", 
+      "title": "Title 1",
+      "description": "Description 1",
+      "tags": "["tag1", "tag2", "tag3"]",
+      "length": "12 minutes 42 seconds",
+      "last_modified": "2020-03-09T22:18:26.625Z",
+      "published_date": "2020-03-10T22:18:26.625Z",
+      "author": "Alon Bibring",
+      "last_viewed": "2020-02-10T22:18:26.625Z",
+      "rating": "5",
+      "view_count": 0,
+    },
+    {
+      "thumbnail": "https://via.placeholder.com/150", 
+      "title": "Title 2",
+      "description": "Description 2",
+      "tags": "["tag4", "tag5", "tag6"]",
+      "length": "10 minutes 42 seconds",
+      "last_modified": "2019-03-09T22:18:26.625Z",
+      "published_date": "2019-03-10T22:18:26.625Z",
+      "author": "Alan Vivring",
+      "last_viewed": "2019-02-10T22:18:26.625Z",
+      "rating": "3",
+      "view_count": 10,
+    },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
